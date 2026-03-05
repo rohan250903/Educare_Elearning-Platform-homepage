@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduCare - Learn. Build. Get Hired.</title>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">EduCare</span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home" data-translate="nav_home">Home</a></li>
+          <li><a href="#features" data-translate="nav_features">Features</a></li>
+          <li><a href="#paths" data-translate="nav_paths">Skill Paths</a></li>
+          <li><a href="#pricing" data-translate="nav_pricing">Pricing</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <select id="languageSelector" class="language-selector" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="hi">हिंदी</option>
+          </select>
+
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+            <span class="theme-icon">🌙</span>
+          </button>
+
+          <button class="btn btn-secondary" data-translate="nav_login">Login</button>
+          <button class="btn btn-primary" data-translate="nav_signup">Sign Up</button>
+
+          <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content animate-on-scroll">
+            <h1 class="hero-title" data-translate="hero_title">Learn. Build. Get Hired.</h1>
+            <p class="hero-subtitle" data-translate="hero_subtitle">Master in-demand skills through real-world projects and land your dream tech job</p>
+            <div class="hero-cta">
+              <button class="btn btn-primary btn-lg" data-translate="hero_cta_start">Start Learning Free</button>
+              <button class="btn btn-outline btn-lg" data-translate="hero_cta_explore">Explore Courses</button>
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <span class="stat-number">50K+</span>
+                <span class="stat-label" data-translate="hero_stat_learners">Learners</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">200+</span>
+                <span class="stat-label" data-translate="hero_stat_courses">Courses</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">95%</span>
+                <span class="stat-label" data-translate="hero_stat_success">Success Rate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll" data-translate="features_title">Why Choose EduCare?</h2>
+          <p class="section-subtitle animate-on-scroll" data-translate="features_subtitle">Everything you need to succeed in your tech career</p>
+
+          <div class="features-grid">
+            <div class="feature-card animate-on-scroll">
+              <div class="feature-icon">👥</div>
+              <h3 data-translate="feature1_title">Community-Based Learning</h3>
+              <p data-translate="feature1_desc">Learn alongside thousands of motivated learners. Share knowledge, solve problems together, and grow your network.</p>
+            </div>
+
+            <div class="feature-card animate-on-scroll">
+              <div class="feature-icon">🎯</div>
+              <h3 data-translate="feature2_title">Outcome-Focused Projects</h3>
+              <p data-translate="feature2_desc">Build real-world projects that matter. Create a portfolio that impresses employers and showcases your skills.</p>
+            </div>
+
+            <div class="feature-card animate-on-scroll">
+              <div class="feature-icon">🤖</div>
+              <h3 data-translate="feature3_title">AI Study Assistant</h3>
+              <p data-translate="feature3_desc">Get instant help with our AI-powered assistant. Available 24/7 to answer questions and guide your learning journey.</p>
+            </div>
+
+            <div class="feature-card animate-on-scroll">
+              <div class="feature-icon">💰</div>
+              <h3 data-translate="feature4_title">Affordable at ₹150/month</h3>
+              <p data-translate="feature4_desc">Quality education shouldn't break the bank. Access all courses and features for less than your daily coffee.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="paths" class="skill-paths">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll" data-translate="paths_title">Choose Your Path</h2>
+          <p class="section-subtitle animate-on-scroll" data-translate="paths_subtitle">Structured learning paths designed by industry experts</p>
+
+          <div class="paths-grid">
+            <div class="path-card animate-on-scroll">
+              <div class="path-header">
+                <span class="path-badge" data-translate="path_badge_popular">Popular</span>
+                <h3 data-translate="path1_title">Full Stack Development</h3>
+              </div>
+              <p data-translate="path1_desc">Master frontend and backend technologies. Build complete web applications from scratch.</p>
+              <ul class="path-skills">
+                <li>React & Node.js</li>
+                <li>Databases & APIs</li>
+                <li>DevOps Basics</li>
+              </ul>
+              <div class="path-footer">
+                <span class="path-duration">6 months</span>
+                <button class="btn btn-text" data-translate="path_cta">Learn More →</button>
+              </div>
+            </div>
+
+            <div class="path-card animate-on-scroll">
+              <div class="path-header">
+                <span class="path-badge" data-translate="path_badge_trending">Trending</span>
+                <h3 data-translate="path2_title">Data Science & AI</h3>
+              </div>
+              <p data-translate="path2_desc">Dive into machine learning, data analysis, and artificial intelligence applications.</p>
+              <ul class="path-skills">
+                <li>Python & Libraries</li>
+                <li>ML Algorithms</li>
+                <li>Deep Learning</li>
+              </ul>
+              <div class="path-footer">
+                <span class="path-duration">8 months</span>
+                <button class="btn btn-text" data-translate="path_cta">Learn More →</button>
+              </div>
+            </div>
+
+            <div class="path-card animate-on-scroll">
+              <div class="path-header">
+                <span class="path-badge" data-translate="path_badge_new">New</span>
+                <h3 data-translate="path3_title">Cloud & DevOps</h3>
+              </div>
+              <p data-translate="path3_desc">Learn cloud infrastructure, automation, and modern deployment practices.</p>
+              <ul class="path-skills">
+                <li>AWS/Azure/GCP</li>
+                <li>Docker & Kubernetes</li>
+                <li>CI/CD Pipelines</li>
+              </ul>
+              <div class="path-footer">
+                <span class="path-duration">5 months</span>
+                <button class="btn btn-text" data-translate="path_cta">Learn More →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll" data-translate="hiw_title">How It Works</h2>
+          <p class="section-subtitle animate-on-scroll" data-translate="hiw_subtitle">Your journey to success in three simple steps</p>
+
+          <div class="steps-grid">
+            <div class="step animate-on-scroll">
+              <div class="step-number">1</div>
+              <h3 data-translate="step1_title">Choose Your Path</h3>
+              <p data-translate="step1_desc">Browse our curated learning paths and select the one that aligns with your career goals.</p>
+            </div>
+
+            <div class="step animate-on-scroll">
+              <div class="step-number">2</div>
+              <h3 data-translate="step2_title">Learn & Build</h3>
+              <p data-translate="step2_desc">Follow structured curriculum, complete hands-on projects, and get feedback from mentors.</p>
+            </div>
+
+            <div class="step animate-on-scroll">
+              <div class="step-number">3</div>
+              <h3 data-translate="step3_title">Get Hired</h3>
+              <p data-translate="step3_desc">Showcase your portfolio, get interview prep support, and land your dream job.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll" data-translate="testimonials_title">Success Stories</h2>
+          <p class="section-subtitle animate-on-scroll" data-translate="testimonials_subtitle">See what our learners have achieved</p>
+
+          <div class="testimonials-grid">
+            <div class="testimonial-card animate-on-scroll">
+              <div class="testimonial-content">
+                <p data-translate="testimonial1_text">"EduCare transformed my career. The practical projects helped me land a job at a top tech company within 4 months!"</p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">P</div>
+                <div class="author-info">
+                  <h4 data-translate="testimonial1_name">Priya Sharma</h4>
+                  <p data-translate="testimonial1_role">Software Engineer at Google</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card animate-on-scroll">
+              <div class="testimonial-content">
+                <p data-translate="testimonial2_text">"The AI assistant is a game-changer. It's like having a personal tutor available 24/7. Best investment I've made!"</p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">R</div>
+                <div class="author-info">
+                  <h4 data-translate="testimonial2_name">Rahul Kumar</h4>
+                  <p data-translate="testimonial2_role">Data Scientist at Amazon</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card animate-on-scroll">
+              <div class="testimonial-content">
+                <p data-translate="testimonial3_text">"Affordable, comprehensive, and effective. EduCare gave me the confidence to switch careers into tech."</p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">A</div>
+                <div class="author-info">
+                  <h4 data-translate="testimonial3_name">Ananya Reddy</h4>
+                  <p data-translate="testimonial3_role">Full Stack Developer at Flipkart</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll" data-translate="pricing_title">Simple, Transparent Pricing</h2>
+          <p class="section-subtitle animate-on-scroll" data-translate="pricing_subtitle">Choose the plan that works for you</p>
+
+          <div class="pricing-grid">
+            <div class="pricing-card animate-on-scroll">
+              <h3 data-translate="plan1_title">Free</h3>
+              <div class="price">
+                <span class="currency">₹</span>
+                <span class="amount">0</span>
+                <span class="period" data-translate="plan_period">/month</span>
+              </div>
+              <ul class="features-list">
+                <li data-translate="plan1_feature1">✓ Access to 10 courses</li>
+                <li data-translate="plan1_feature2">✓ Community forum access</li>
+                <li data-translate="plan1_feature3">✓ Basic progress tracking</li>
+                <li class="disabled" data-translate="plan1_feature4">✗ AI Study Assistant</li>
+                <li class="disabled" data-translate="plan1_feature5">✗ Certificate of completion</li>
+              </ul>
+              <button class="btn btn-outline" data-translate="plan_cta_start">Get Started</button>
+            </div>
+
+            <div class="pricing-card featured animate-on-scroll">
+              <div class="popular-badge" data-translate="plan_badge_popular">Most Popular</div>
+              <h3 data-translate="plan2_title">Pro</h3>
+              <div class="price">
+                <span class="currency">₹</span>
+                <span class="amount">150</span>
+                <span class="period" data-translate="plan_period">/month</span>
+              </div>
+              <ul class="features-list">
+                <li data-translate="plan2_feature1">✓ Access to all courses</li>
+                <li data-translate="plan2_feature2">✓ Community forum access</li>
+                <li data-translate="plan2_feature3">✓ Advanced progress tracking</li>
+                <li data-translate="plan2_feature4">✓ AI Study Assistant</li>
+                <li data-translate="plan2_feature5">✓ Certificate of completion</li>
+              </ul>
+              <button class="btn btn-primary" data-translate="plan_cta_upgrade">Upgrade Now</button>
+            </div>
+
+            <div class="pricing-card animate-on-scroll">
+              <h3 data-translate="plan3_title">Enterprise</h3>
+              <div class="price">
+                <span class="amount" data-translate="plan3_custom">Custom</span>
+              </div>
+              <ul class="features-list">
+                <li data-translate="plan3_feature1">✓ Everything in Pro</li>
+                <li data-translate="plan3_feature2">✓ Custom learning paths</li>
+                <li data-translate="plan3_feature3">✓ Dedicated support</li>
+                <li data-translate="plan3_feature4">✓ Team management tools</li>
+                <li data-translate="plan3_feature5">✓ Advanced analytics</li>
+              </ul>
+              <button class="btn btn-outline" data-translate="plan_cta_contact">Contact Sales</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <span class="logo-icon">⚡</span>
+              <span class="logo-text">EduCare</span>
+            </div>
+            <p data-translate="footer_tagline">Empowering learners to build their future in tech</p>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-translate="footer_product">Product</h4>
+            <ul>
+              <li><a href="#features" data-translate="nav_features">Features</a></li>
+              <li><a href="#paths" data-translate="nav_paths">Skill Paths</a></li>
+              <li><a href="#pricing" data-translate="nav_pricing">Pricing</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-translate="footer_company">Company</h4>
+            <ul>
+              <li><a href="#" data-translate="footer_about">About Us</a></li>
+              <li><a href="#" data-translate="footer_careers">Careers</a></li>
+              <li><a href="#" data-translate="footer_blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 data-translate="footer_support">Support</h4>
+            <ul>
+              <li><a href="#" data-translate="footer_help">Help Center</a></li>
+              <li><a href="#" data-translate="footer_contact">Contact Us</a></li>
+              <li><a href="#" data-translate="footer_privacy">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p data-translate="footer_copyright">© 2024 EduCare. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
