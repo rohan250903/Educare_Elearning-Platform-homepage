@@ -45,10 +45,7 @@ cd educare-elearning-platform
 3️⃣ Run the Project
 
 Simply open:
-
-index.html
-
-in your browser.
+index.html in your browser.
 
 💡 Future Improvements
 
@@ -66,13 +63,9 @@ Contributions are welcome!
 If you'd like to improve this project:
 
 Fork the repository
-
 Create a new branch
-
 git checkout -b feature-name
-
 Commit your changes
-
 Push and create a Pull Request
 
 📄 License
@@ -82,11 +75,8 @@ This project is licensed under the MIT License.
 👨‍💻 Author
 
 Rohan Ghosh
-
 GitHub: https://github.com/rohan250903
-
 Portfolio: https://rohan250903.github.io/my_portfolio/
-
 LinkedIn: https://www.linkedin.com/in/rohan-ghosh-14248a27b/
 
 ⭐ If you like this project, consider starring the repository!
